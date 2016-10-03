@@ -13,5 +13,11 @@
             "showOutput": "silent",
             "problemMatcher": "$msCompile"
         }
+        {
+            "taskName":"run",
+            "args": [
+                "${workspaceRoot}/project.json"
+            ]
+        }
     ]
 }
